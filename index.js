@@ -29,5 +29,3 @@ function removeLastKitten(){
  return kittens.slice(0, kittens.lenght - 1)
 
 }
-function removeElementFromEndOfArray(array){
-  return array.slice( 0, array.length - 1)
