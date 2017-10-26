@@ -9,6 +9,6 @@ function destructivelyPrependKitten(name) {
 
 }
 
-function  destructivelyRemoveLastKitten(){
-  kittens.shift()
+function  destructivelyRemoveLastKitten(kitten){
+  kittens.shift(kitten)
 }
